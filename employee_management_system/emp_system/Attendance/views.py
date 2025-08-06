@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def test_hi(request):
     return HttpResponse("Hello World")
 
+def add_employee(request):
+    
